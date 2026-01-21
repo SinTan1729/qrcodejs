@@ -3,7 +3,7 @@ QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-brow
 QRCode.js has no dependencies.
 
 ## Why this fork?
-This fork merges in some fixes. This is mostly created to be used in my project [Chhoto URL](https://github.com/chhoto-url).
+This fork merges in some fixes. This is mostly created to be used in my project [Chhoto URL](https://github.com/SinTan1729/chhoto-url).
 1. Proper Unicode support by @19z.
 1. Updated the minified file to fix an issue with string lengths stemming from the minification process.
 
