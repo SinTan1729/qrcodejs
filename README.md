@@ -41,14 +41,14 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 
 and you can use some methods
 
-```html
+```javascript
 qrcode.clear(); // clear the code.
 qrcode.makeCode("http://naver.com"); // make another code.
 ```
 
 ## Full UTF-8 encoding support
 
-```html
+```javascript
 qrcode.clear(); // clear the code.
 qrcode.makeCode("你好 こんにちは 여보세요"); // make another code.
 ```
