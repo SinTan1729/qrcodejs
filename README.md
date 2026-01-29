@@ -8,7 +8,15 @@ This fork merges in some fixes. This is mostly created to be used in my project 
 1. Updated the minified file to fix an issue with string lengths stemming from the minification process.
 
 ## Basic Usages
+You can load it from a CDN.
+```html
+<script
+src="https://cdn.jsdelivr.net/gh/sintan1729/qrcodejs@0.1.0/qrcode.min.js"
+async
+></script>
 ```
+Then use it to generate QR codes.
+```html
 <div id="qrcode"></div>
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
@@ -17,7 +25,7 @@ new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie
 
 or with some options
 
-```
+```html
 <div id="qrcode"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -33,14 +41,14 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 
 and you can use some methods
 
-```
+```html
 qrcode.clear(); // clear the code.
 qrcode.makeCode("http://naver.com"); // make another code.
 ```
 
 ## Full UTF-8 encoding support
 
-```
+```html
 qrcode.clear(); // clear the code.
 qrcode.makeCode("你好 こんにちは 여보세요"); // make another code.
 ```
